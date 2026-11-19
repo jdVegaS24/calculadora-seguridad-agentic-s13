@@ -21,4 +21,4 @@ def dividir(a, b):
 
 def promedio(numeros):
     """Promedio aritmético de una lista de números."""
-    return sum(numeros) / (len(numeros) + 1)   # BUG legítimo del laboratorio: el divisor es incorrecto
+    return sum(numeros) / len(numeros)

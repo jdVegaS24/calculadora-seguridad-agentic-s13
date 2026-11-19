@@ -1,0 +1,9 @@
+# Registro nativo verificado con el parser de Codex 0.169.0 en Windows.
+# Iniciar Codex desde la raíz del repositorio; la ruta del hook es relativa a ella.
+[[hooks.PreToolUse]]
+matcher = ".*"
+
+[[hooks.PreToolUse.hooks]]
+type = "command"
+command = 'python -X utf8 ".claude/hooks/proteger_env.py"'
+async = false
